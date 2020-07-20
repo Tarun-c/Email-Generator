@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+/**
+ * @author Alline
+ *
+ */
+package EmailApp;
