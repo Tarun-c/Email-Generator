@@ -1,4 +1,4 @@
-# Email Generator
+# Email ID Generator
 
  <h2>Generate the random Email ID and Password.</h2>
  For example in a system administrator scenario, they generate a default email and password for new hires employees.
