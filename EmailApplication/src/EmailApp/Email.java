@@ -6,15 +6,18 @@ public class Email {
 	private String mailId;
 	private int defaultPasswordLength =8;
 	private String defaultPassword;
-	private String companyName ;
+	public String companyName;
 	public Email() {}
-	public Email(String firstName,String lastName,String CompanyName) {
+
+	public Email(String firstName, String lastName, String CompanyName) throws InterruptedException {
+
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.mailId = defaultMailID();
 		//Constructor for default password
 		this.defaultPassword = defaultPass(defaultPasswordLength);
 		this.companyName = CompanyName;
+
 		//Construct mail ID
 		this.mailId = defaultMailID();
 		
